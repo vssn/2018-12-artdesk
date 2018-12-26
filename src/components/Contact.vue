@@ -7,9 +7,7 @@
       >
         <div class="card">
           <div class="card-content">
-            <p class="subtitle">
-              Diplominformatiker (FH) <br />Edmund Goller <br />
-            </p>
+            <p class="subtitle">Dipl.-Inf. (FH) <br />Edmund Goller <br /></p>
             <p class="subtitle">
               Niedergelassen in <br />Fleisnitz 14, 95236 Stammbach,
               Deutschland<br />
@@ -69,18 +67,6 @@ p {
   box-shadow: none;
 }
 
-h1,
-h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
 a {
   color: #42b983;
 }

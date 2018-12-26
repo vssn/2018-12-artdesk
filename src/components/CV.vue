@@ -18,11 +18,35 @@
         </div>
         <div class="card">
           <div class="card-content">
+            <time datetime="2016-1-1">July 2016 - today</time>
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Lead developer</p>
+                <p class="subtitle is-6">
+                  Get Wet And Sweat Concerts GmbH, Culticks
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
             <time datetime="2016-1-1">October 2012 - October 2016</time>
             <div class="media">
               <div class="media-content">
                 <p class="title is-4">Art Director Interactive</p>
                 <p class="subtitle is-6">MBS Nürnberg GmbH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <time datetime="2016-1-1">October 2008 - September 2012</time>
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Graphic Designer</p>
+                <p class="subtitle is-6">Various design and event agencies</p>
               </div>
             </div>
           </div>
@@ -42,6 +66,7 @@
 }
 
 .modal-content {
+  -webkit-overflow-scrolling: touch;
   text-align: left;
   max-height: 100vh;
 }
@@ -57,21 +82,5 @@ p {
 
 .card {
   box-shadow: none;
-}
-
-h1,
-h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
 }
 </style>
