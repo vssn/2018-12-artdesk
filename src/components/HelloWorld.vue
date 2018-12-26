@@ -1,16 +1,18 @@
 <template>
   <div class="hello">
-    <div class="columns is-mobile modal is-active">
+    <div class="columns modal is-active">
       <div class="modal-background"></div>
-      <div class="column is-half modal-content">
+      <div
+        class="column is-offset-one-quarter-mobile is-three-quarters-mobile is-half modal-content"
+      >
         <p class="subtitle">
-          <span class="tag is-dark is-medium">Germany based</span><br />
-          <span class="tag is-dark is-medium">
+          <span class="tag is-dark is-large">Germany based</span><br />
+          <span class="tag is-dark is-large">
             Freelance Frontend Developer
           </span>
-          <span class="tag is-primary is-medium"> Edmund Goller </span>
-          <span class="tag is-dark is-medium">assignable for</span>
-          <span class="tag is-primary is-medium">remote tasks.</span>
+          <span class="tag is-primary is-large"> Edmund Goller </span>
+          <span class="tag is-dark is-large">assignable for</span>
+          <span class="tag is-primary is-large">remote tasks.</span>
         </p>
       </div>
     </div>
@@ -34,7 +36,7 @@
 }
 
 .modal-content {
-  max-height: 100vh;
+  max-height: 90vh;
 }
 
 .tag {

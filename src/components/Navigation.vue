@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-menu is-active">
+    <div class="navbar-menu">
       <router-link to="/home" class="navbar-item">
         <i class="far fa-user-circle"></i><br />
         Edmund
@@ -41,9 +41,9 @@ nav,
 }
 
 .navbar {
-  top: 1em;
+  bottom: calc(50vh - 145px);
   left: 1em;
-  position: absolute;
+  position: fixed;
   flex-direction: column;
   justify-content: center;
   align-items: center;

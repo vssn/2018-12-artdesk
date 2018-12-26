@@ -1,8 +1,10 @@
 <template>
-  <div class="skills columns">
+  <div class="skills">
     <div class="columns is-mobile modal is-active">
       <div class="modal-background"></div>
-      <div class="column is-half modal-content">
+      <div
+        class="column is-offset-one-fifth-mobile is-four-fifths-mobile is-half modal-content"
+      >
         <p class="subtitle">
           Knowledge stacks<br />
           <span class="tag is-info is-normal">AWS DevOps</span>
@@ -24,13 +26,13 @@
         <p class="subtitle">
           Frameworks and Libraries <br />
           <span class="tag is-link is-normal">Vue</span>
-          <span class="tag is-primary is-normal">React Native</span>
-          <span class="tag is-primary is-normal">React</span>
+          <span class="tag is-link is-normal">React Native</span>
+          <span class="tag is-link is-normal">React</span>
           <span class="tag is-primary is-normal">Redux</span>
+          <span class="tag is-primary is-normal">Web Assembly</span>
           <span class="tag is-primary is-normal">Laravel</span>
-          <span class="tag is-primary is-normal">D3</span>
+          <span class="tag is-primary is-normal">Web Components</span>
           <span class="tag is-primary is-normal">.NET Core</span>
-          <span class="tag is-primary is-normal">Rust</span>
         </p>
       </div>
     </div>

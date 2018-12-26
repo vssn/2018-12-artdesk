@@ -1,39 +1,31 @@
 <template>
   <div class="resume columns">
-    <div class="columns is-mobile modal is-active">
+    <div class="columns modal is-active">
       <div class="modal-background"></div>
-      <div class="column is-half modal-content">
+      <div
+        class="column is-offset-one-third-mobile is-two-thirds-mobile is-half modal-content"
+      >
         <div class="card">
           <div class="card-content">
-            <p class="subtitle">
-              Diplominformatiker (FH) Edmund Goller <br />
-              Niedergelassen in Fleisnitz 14, 95236 Stammbach<br />
-            </p>
-            <p class="subtitle">
-              <span>
-                <a href="mailto:edmund.goller@artdesk.de"
-                  ><i class="fas fa-mobile"></i> 0176/32250196
-                </a>
-              </span>
-            </p>
+            <time datetime="2016-1-1">October 2016 - today</time>
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Application developer</p>
+                <p class="subtitle is-6">Global bank, german branch</p>
+              </div>
+            </div>
           </div>
-          <footer class="card-footer">
-            <p class="card-footer-item">
-              <span>
-                <a
-                  href="https://twitter.com/codinghorror/status/506010907021828096"
-                  ><i class="fab fa-xing"></i> XING</a
-                >
-              </span>
-            </p>
-            <p class="card-footer-item">
-              <span>
-                <a href="mailto:edmund.goller@artdesk.de"
-                  ><i class="far fa-envelope-open"></i> E-Mail
-                </a>
-              </span>
-            </p>
-          </footer>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <time datetime="2016-1-1">October 2012 - October 2016</time>
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Art Director Interactive</p>
+                <p class="subtitle is-6">MBS Nürnberg GmbH</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -46,17 +38,7 @@
 }
 
 .modal-background {
-  background: #50a3a2;
-  background: -webkit-linear-gradient(
-    to right bottom,
-    rgba(0, 184, 156, 0.76) 0%,
-    rgba(52, 0, 56, 0.92) 100%
-  );
-  background: linear-gradient(
-    to right bottom,
-    rgba(0, 184, 156, 0.76) 0%,
-    rgba(52, 0, 56, 0.92) 100%
-  );
+  background: white;
 }
 
 .modal-content {
@@ -71,6 +53,10 @@
 
 p {
   font-weight: 300;
+}
+
+.card {
+  box-shadow: none;
 }
 
 h1,
