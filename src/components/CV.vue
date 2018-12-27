@@ -1,5 +1,5 @@
 <template>
-  <div class="resume columns">
+  <div class="resume">
     <div class="columns modal is-active">
       <div class="modal-background"></div>
       <div
@@ -51,6 +51,35 @@
             </div>
           </div>
         </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="media"><div>Mentionable Projects</div></div>
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Upkick – Keep focus App</p>
+                <p class="subtitle is-6">Leisure Time Management (iOS)</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Bauhaus Nautic App</p>
+                <p class="subtitle is-6">
+                  <a
+                    href="https://www.german-design-award.com/die-gewinner/galerie/detail/9000-bauhaus-nautic-app-21-captains-aid.html"
+                    >German Design Award 2017</a
+                  >
+                  (iOS / Android)
+                </p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Culticks - Your event calendar</p>
+                <p class="subtitle is-6">(iOS / Android)</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -69,6 +98,14 @@
   -webkit-overflow-scrolling: touch;
   text-align: left;
   max-height: 100vh;
+}
+
+.card:last-child {
+  margin-bottom: 15vh;
+}
+
+.card:first-child {
+  margin-top: 15vh;
 }
 
 .tag {

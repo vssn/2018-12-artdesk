@@ -3,36 +3,36 @@
     <div class="columns is-mobile modal is-active">
       <div class="modal-background"></div>
       <div
-        class="column is-offset-one-fifth-mobile is-four-fifths-mobile is-half modal-content"
+        class="column skill-list is-offset-one-fifth-mobile is-four-fifths-mobile is-half modal-content"
       >
         <p class="subtitle">
           Knowledge stacks<br />
-          <span class="tag is-info is-normal">AWS DevOps</span>
-          <span class="tag is-info is-normal">CI &amp; Deployment</span>
-          <span class="tag is-info is-normal">Rest API Definition</span>
-          <span class="tag is-info is-normal">Domain Architecture</span>
-          <span class="tag is-info is-normal">Clean Code</span>
+          <span class="tag is-info is-medium">AWS DevOps</span>
+          <span class="tag is-info is-medium">CI &amp; Deployment</span>
+          <span class="tag is-info is-medium">Rest API Definition</span>
+          <span class="tag is-info is-medium">Domain Architecture</span>
+          <span class="tag is-info is-medium">Clean Code</span>
         </p>
 
         <p class="subtitle">
-          Languages <br /><span class="tag is-link is-normal">JavaScript</span>
-          <span class="tag is-primary is-normal">HTML + CSS</span>
-          <span class="tag is-primary is-normal">PHP</span>
-          <span class="tag is-primary is-normal">Swift</span>
-          <span class="tag is-primary is-normal">C#</span>
-          <span class="tag is-primary is-normal">Rust</span>
+          Languages <br /><span class="tag is-link is-medium">JavaScript</span>
+          <span class="tag is-primary is-medium">HTML + CSS</span>
+          <span class="tag is-primary is-medium">PHP</span>
+          <span class="tag is-primary is-medium">Swift</span>
+          <span class="tag is-primary is-medium">C#</span>
+          <span class="tag is-primary is-medium">Rust</span>
         </p>
 
         <p class="subtitle">
           Frameworks and Libraries <br />
-          <span class="tag is-link is-normal">Vue</span>
-          <span class="tag is-link is-normal">React Native</span>
-          <span class="tag is-link is-normal">React</span>
-          <span class="tag is-primary is-normal">Redux</span>
-          <span class="tag is-primary is-normal">Web Assembly</span>
-          <span class="tag is-primary is-normal">Laravel</span>
-          <span class="tag is-primary is-normal">Web Components</span>
-          <span class="tag is-primary is-normal">.NET Core</span>
+          <span class="tag is-link is-medium">Vue</span>
+          <span class="tag is-link is-medium">React Native</span>
+          <span class="tag is-link is-medium">React</span>
+          <span class="tag is-primary is-medium">Redux</span>
+          <span class="tag is-primary is-medium">Web Assembly</span>
+          <span class="tag is-primary is-medium">Laravel</span>
+          <span class="tag is-primary is-medium">Web Components</span>
+          <span class="tag is-primary is-medium">.NET Core</span>
         </p>
       </div>
     </div>
@@ -41,9 +41,6 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.skills {
-}
-
 .modal-background {
   background: #50a3a2;
   background: -webkit-linear-gradient(
@@ -56,6 +53,11 @@
     rgba(0, 184, 156, 0.76) 0%,
     rgba(52, 0, 56, 0.92) 100%
   );
+}
+
+.skill-list {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
 }
 
 .modal-content {

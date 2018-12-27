@@ -1,5 +1,5 @@
 <template>
-  <div class="contact columns">
+  <div class="contact">
     <div class="columns modal is-active">
       <div class="modal-background"></div>
       <div

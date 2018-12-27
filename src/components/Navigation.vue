@@ -23,10 +23,10 @@
 
 <script>
 export default {
-  name: "Navigation",
+  name: 'Navigation',
   data() {
     return {};
-  }
+  },
 };
 </script>
 
@@ -47,6 +47,7 @@ nav,
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: 0.5s coming;
 }
 .navbar-item {
   width: 80px;
@@ -54,11 +55,24 @@ nav,
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.6em;
+  display: block;
+}
+
+@keyframes coming {
+  0% {
+    opacity: 0;
+    transform: scale(3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .navbar-item:hover {
   border-radius: 4px;
   color: #00b89c;
+  background-color: transparent;
 }
 
 .navbar-item:first-child {

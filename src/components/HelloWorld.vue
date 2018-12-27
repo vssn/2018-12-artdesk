@@ -8,7 +8,7 @@
         <p class="subtitle">
           <span class="tag is-dark is-large">Germany based</span><br />
           <span class="tag is-dark is-large"> Frontend Developer </span>
-          <span class="tag is-primary is-large"> Edmund Goller </span>
+          <span class="tag is-primary is-large"> Edmund Goller </span><br />
           <span class="tag is-dark is-large">assignable for</span>
           <span class="tag is-primary is-large">remote tasks.</span>
         </p>
@@ -23,13 +23,13 @@
   background: #50a3a2;
   background: -webkit-linear-gradient(
     to right bottom,
-    rgba(0, 184, 156, 0.76) 0%,
-    rgba(52, 0, 56, 0.92) 100%
+    rgba(0, 184, 156, 0.36) 0%,
+    rgba(52, 0, 56, 0.42) 100%
   );
   background: linear-gradient(
     to right bottom,
-    rgba(0, 184, 156, 0.76) 0%,
-    rgba(52, 0, 56, 0.92) 100%
+    rgba(0, 184, 156, 0.06) 0%,
+    rgba(52, 0, 56, 0.12) 100%
   );
 }
 

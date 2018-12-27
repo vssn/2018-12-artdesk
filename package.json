@@ -1,7 +1,7 @@
 {
-  "name": "test-project",
+  "name": "artdesk",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A Vue.js based personal website",
   "main": "src/main.js",
   "private": true,
   "scripts": {
@@ -73,5 +73,6 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "keywords": []
 }
