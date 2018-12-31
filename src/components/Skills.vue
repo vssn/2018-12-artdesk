@@ -56,8 +56,8 @@
 }
 
 .skill-list {
-  margin-top: 15vh;
-  margin-bottom: 15vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
 }
 
 .modal-content {
