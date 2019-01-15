@@ -56,6 +56,7 @@ nav,
   text-transform: uppercase;
   font-size: 0.6em;
   display: block;
+  color: #192d35;
 }
 
 @keyframes coming {
@@ -67,6 +68,15 @@ nav,
     opacity: 1;
     transform: scale(1);
   }
+}
+
+.navbar-item i::before {
+  color: #7f8a8c;
+  transition: all 150ms ease-in-out;
+}
+
+.navbar-item:hover i::before {
+  color: #00b89c;
 }
 
 .navbar-item:hover {
