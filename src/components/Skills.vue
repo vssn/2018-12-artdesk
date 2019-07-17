@@ -6,33 +6,39 @@
         class="column skill-list is-offset-one-fifth-mobile is-four-fifths-mobile is-half modal-content"
       >
         <p class="subtitle">
-          Knowledge stacks<br />
-          <span class="tag is-info is-medium">AWS DevOps</span>
-          <span class="tag is-info is-medium">CI &amp; Deployment</span>
-          <span class="tag is-info is-medium">Rest API Definition</span>
-          <span class="tag is-info is-medium">Domain Architecture</span>
-          <span class="tag is-info is-medium">Clean Code</span>
+          Knowledge stacks
+          <br>
+          <span class="tag is-link is-medium">REST Services</span>
+          <span class="tag is-link is-medium">AWS DevOps</span>
+          <span class="tag is-link is-medium">CI &amp; Deployment</span>
+          <span class="tag is-link is-medium">Domain Architecture</span>
+          <span class="tag is-link is-medium">Following Clean Code</span>
         </p>
 
         <p class="subtitle">
-          Languages <br /><span class="tag is-link is-medium">JavaScript</span>
-          <span class="tag is-primary is-medium">HTML + CSS</span>
-          <span class="tag is-primary is-medium">PHP</span>
-          <span class="tag is-primary is-medium">Swift</span>
-          <span class="tag is-primary is-medium">C#</span>
-          <span class="tag is-primary is-medium">Rust</span>
+          Languages
+          <br>
+          <span class="tag is-warning is-medium">JavaScript</span>
+          <span class="tag is-warning is-medium">TypeScript</span>
+          <span class="tag is-warning is-medium">HTML + CSS</span>
+          <br>
+          <span class="tag is-warning is-medium">PHP</span>
+          <span class="tag is-warning is-medium">Swift</span>
+          <span class="tag is-warning is-medium">C#</span>
+          <span class="tag is-warning is-medium">Rust</span>
         </p>
 
         <p class="subtitle">
-          Frameworks and Libraries <br />
-          <span class="tag is-link is-medium">Vue</span>
-          <span class="tag is-link is-medium">React Native</span>
-          <span class="tag is-link is-medium">React</span>
-          <span class="tag is-primary is-medium">Redux</span>
-          <span class="tag is-primary is-medium">Web Assembly</span>
-          <span class="tag is-primary is-medium">Laravel</span>
-          <span class="tag is-primary is-medium">Web Components</span>
-          <span class="tag is-primary is-medium">.NET Core</span>
+          Frameworks and Libraries
+          <br>
+          <span class="tag is-info is-medium">Vue</span>
+          <span class="tag is-info is-medium">React Native</span>
+          <span class="tag is-info is-medium">React</span>
+          <span class="tag is-info is-medium">Redux</span>
+          <span class="tag is-info is-medium">Web Assembly</span>
+          <span class="tag is-info is-medium">Laravel</span>
+          <span class="tag is-info is-medium">Web Components</span>
+          <span class="tag is-info is-medium">.NET Core</span>
         </p>
       </div>
     </div>
