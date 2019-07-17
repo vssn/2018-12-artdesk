@@ -15,7 +15,7 @@
       </router-link>
       <router-link to="contact" class="navbar-item">
         <i class="far fa-address-card"></i><br />
-        Contact
+        Kontakt
       </router-link>
     </div>
   </nav>
