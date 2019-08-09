@@ -2,5 +2,5 @@
 /*eslint-env node*/
 module.exports = {
   verbose: true,
-  testMatch: ['/src/**/*.test.js'],
+  testMatch: ['**/*.test.js'],
 };
