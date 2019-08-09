@@ -2,9 +2,7 @@
   <div class="resume">
     <div class="columns modal is-active">
       <div class="modal-background"></div>
-      <div
-        class="column is-offset-one-third-mobile is-two-thirds-mobile is-half modal-content"
-      >
+      <div class="column is-offset-one-third-mobile is-two-thirds-mobile is-half modal-content">
         <div class="card">
           <div class="card-content">
             <time datetime="2016-1-1">October 2016 - today</time>
@@ -22,9 +20,7 @@
             <div class="media">
               <div class="media-content">
                 <p class="title is-4">Lead developer</p>
-                <p class="subtitle is-6">
-                  Get Wet And Sweat Concerts GmbH, Culticks
-                </p>
+                <p class="subtitle is-6">Get Wet And Sweat Concerts GmbH, Culticks</p>
               </div>
             </div>
           </div>
@@ -46,14 +42,18 @@
             <div class="media">
               <div class="media-content">
                 <p class="title is-4">Graphic Designer</p>
-                <p class="subtitle is-6">Various design and event agencies</p>
+                <p
+                  class="subtitle is-6"
+                >Various design and event agencies in Berlin, London, Bayreuth</p>
               </div>
             </div>
           </div>
         </div>
         <div class="card">
           <div class="card-content">
-            <div class="media"><div>Mentionable Projects</div></div>
+            <div class="media">
+              <div>Mentionable Projects</div>
+            </div>
             <div class="media">
               <div class="media-content">
                 <p class="title is-4">Upkick – Keep focus App</p>
@@ -66,8 +66,7 @@
                 <p class="subtitle is-6">
                   <a
                     href="https://www.german-design-award.com/die-gewinner/galerie/detail/9000-bauhaus-nautic-app-21-captains-aid.html"
-                    >German Design Award 2017</a
-                  >
+                  >German Design Award 2017</a>
                   (iOS / Android)
                 </p>
               </div>
