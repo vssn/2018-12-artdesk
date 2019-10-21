@@ -9,10 +9,6 @@
           <div class="card-content">
             <p class="subtitle">Dipl.-Inf. (FH) <br />Edmund Goller <br /></p>
             <p class="subtitle">
-              Niedergelassen in <br />Fleisnitz 14, 95236 Stammbach,
-              Deutschland<br />
-            </p>
-            <p class="subtitle">
               <span>
                 <a href="tel:+4917632250196"
                   ><i class="fas fa-mobile"></i> +49 (0)176 32 25 01 96
