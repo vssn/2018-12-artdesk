@@ -8,9 +8,7 @@
         <p class="subtitle">
           <span class="tag is-dark is-large">Germany based</span><br />
           <span class="tag is-dark is-large"> Frontend Developer </span>
-          <span class="tag is-primary is-large"> Edmund Goller </span><br />
-          <span class="tag is-dark is-large">assignable for</span>
-          <span class="tag is-primary is-large">remote tasks.</span>
+          <span class="tag is-primary is-large"> Edmund Goller </span>
         </p>
       </div>
     </div>
