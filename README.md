@@ -1,4 +1,6 @@
-# test-project
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eb39ed8c-d3e7-4d8e-bba3-6b7ce48e78bb/deploy-status)](https://app.netlify.com/sites/artdeskde/deploys)
+
+# Personal website
 
 > A Vue.js project
 
